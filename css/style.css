@@ -51,15 +51,14 @@ nav {
     text-align: center;
     margin-top: 150px;
 }
-#logo-g {
+/* #logo-g {
     margin: 0 auto;
     background-image: url(../images/googlelogo_color_272x92dp.png);
     background-repeat: no-repeat;
     width: 272px;
     height: 92px;
     left: calc(50% - 272px/2);
-    /*position: absolute;*/
-}
+} */
 #s-container {
     margin-top: 26px;
 }
