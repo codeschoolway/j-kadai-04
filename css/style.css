@@ -3,23 +3,26 @@
 body {
     font-size: 13px;
     font-family: arial, sans-serif;
+    padding-top: 20px;
 }
-a, a:active, a:link, a:visited {
+a {
     text-decoration: none;
-    color: black;
+    color: #000000;
+}
+ul {
+    list-style-type: none;
 }
 a:hover {
     text-decoration: underline;
 }
 header {
-    margin-top: 20px;
+    margin-bottom: 150px;
 }
 nav {
     margin: 0 30px;
  }
 .main-nav {
     display: flex;
-    list-style: none;
     align-items: center;
 }
 .main-nav li{
@@ -37,7 +40,6 @@ nav {
 }
 .logo-container {
     text-align: center;
-    margin-top: 150px;
 }
 .logo-container img {
     margin-bottom: 26px;
@@ -61,6 +63,7 @@ input[type="text"] {
     width: 585px;
     border-radius: 22px;
     font-size: 16px;
+    margin-bottom: 35px;
 }
 input[type="text"]:focus,
 input[type="text"]:hover {
@@ -75,7 +78,7 @@ input[type="submit"] {
     border-radius: 4px;
     color: #5F6368;
     font-size: 14px;
-    margin: 35px 4px 0 4px;
+    margin: 0 4px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
@@ -85,7 +88,6 @@ input[type="submit"]:hover {
     color: #333639;
 }
 footer {
-    justify-content: space-between;
     padding-left: 30px;
     background: #f2f2f2;
     line-height: 40px;
@@ -96,7 +98,6 @@ footer {
 }
 .foot-list {
     display: flex;
-    list-style: none;
 }
 .foot-list li {
     padding-right: 27px;
