@@ -20,6 +20,8 @@ header {
 }
 nav {
     margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
  }
 .main-nav {
     display: flex;
@@ -57,7 +59,7 @@ nav {
     position: relative;
 }
 input[type="text"] {
-    padding-left: 50px;
+    padding: 5px 5px 5px 50px;
     border: 2px #EEEEEE solid;
     height: 44px;
     width: 585px;
@@ -74,14 +76,12 @@ input[type="text"]:hover {
 }
 input[type="submit"] {
     background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5F6368;
     font-size: 14px;
     margin: 0 4px;
-    padding: 0 16px;
+    padding: 5px 16px;
     line-height: 27px;
-    height: 36px;
 }
 input[type="submit"]:hover {
     border: 1px solid #cbcbcb;
@@ -95,6 +95,8 @@ footer {
     position: absolute;
     bottom: 0;
     min-width: 100vw;
+    display: flex;
+    justify-content: space-between;
 }
 .foot-list {
     display: flex;
